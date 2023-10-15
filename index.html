@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Positioning</title>
+    <style>
+        body{
+            height: 10000px;
+        }
+        .box{
+            background-color: red;
+            color: aliceblue;
+            height: 200px;
+            /* margin-top: 10px; */
+            /* top: 30px; */
+            /* right: 0px; */
+
+            /* position: relative; */
+        }
+        .link{
+            background-color: blue;
+            color: antiquewhite;
+            position: fixed;
+            top: 0px;
+            right:0px;
+            height: 100px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--position:relative bu element uzini hozirgi normal joylashuviga nisbaan joylashadi-->
+    <!--position:fixed da viewportga nisbatan joylashadi va block elementdan inline elementga utadi-->
+    <div class="box">Box 1</div>
+    <p class="link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed hic eaque!</p>
+
+</body>
+</html>
